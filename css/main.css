@@ -1,0 +1,105 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0 calc(50% - 415px);
+}
+
+.cv_container {
+	width: 830px;
+	display: flex;
+	background-color: #6b97c3;
+	line-height: 25px;
+
+
+}
+
+h2,
+h3 {
+	padding: 10px 0;
+}
+
+h2 {
+	font-size: 26px;
+}
+
+.about_me_aside {
+	width: 370px;
+	height: auto;
+	background-color: #1e2939;
+	color: #fff;
+}
+
+.contacts_container {
+	padding: 20px 35px 10px;
+}
+
+img {
+	width: 370px;
+	height: 370px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.Tech_Skills_container,
+.Soft_Skills_container,
+.languages_container,
+.experience_container,
+.projects_continer {
+	padding: 20px 0 10px;
+
+}
+
+.tech_skills_list,
+.soft_skills_list,
+.languages_list {
+	padding: 0 15px;
+}
+
+.about_me_container {
+	width: 1200px;
+	padding: 40px 70px;
+}
+
+.main_info {
+	margin-top: 25px;
+}
+
+footer {
+	height: 80px;
+	background-color: #1e2939;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo_link {
+	display: block;
+	height: 100%;
+}
+
+.footer_nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+}
+
+.footer_nav_li {
+	list-style-type: none;
+}
+
+.logo_brand {
+
+	height: 60px;
+	width: 110px;
+	display: inline-block;
+}
